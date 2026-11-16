@@ -1,0 +1,18 @@
+# Dependencies and build output (website/.gitignore covers the app itself)
+node_modules/
+.next/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+# Env / secrets
+.env*
+*.pem
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
